@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Wang-Nainai · 开源项目与教程</title>
+<meta name="description" content="Wang-Nainai 的公开项目与教程：嵌入式与计算机技术教程、ESP32 智能旋钮、Windows 桌面工具。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1512'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='24' font-weight='700' fill='%23d1fae5' text-anchor='middle'%3EWN%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">跳到正文</a>
+
+<header class="nav" id="nav">
+  <div class="nav-in">
+    <a class="brand" href="#top"><span class="mark">WN</span><b>Wang-Nainai</b></a>
+    <span class="sp"></span>
+    <nav class="links" id="links" aria-label="主导航">
+      <a href="#projects">项目</a>
+      <a href="#about">关于</a>
+      <a href="https://wang-nainai.github.io/embedded-learning/">教程</a>
+      <a class="gh" href="https://github.com/Wang-Nainai" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+    <button class="toggle" id="toggle" type="button" aria-expanded="false" aria-controls="links" aria-label="打开导航">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="hero-in">
+      <div>
+        <p class="kicker">Open Source · Projects</p>
+        <h1>Wang-<span>Nainai</span></h1>
+        <p class="lead">这里汇总我的公开项目与学习资料：从 <b>ESP32 设备</b>、<b>Windows 桌面工具</b>，到一套从 C 语言基础到网络通信的开源教程。</p>
+        <div class="actions">
+          <a class="btn pri" href="#projects">浏览项目</a>
+          <a class="btn ghost" href="https://wang-nainai.github.io/embedded-learning/">阅读教程</a>
+        </div>
+      </div>
+      <aside class="side" aria-label="当前项目">
+        <p>Selected work</p>
+        <a href="https://wang-nainai.github.io/embedded-learning/">嵌入式与计算机技术教程 <span>5 册</span></a>
+        <a href="https://github.com/Wang-Nainai/SmartKnob">SmartKnob <span>ESP32-S3</span></a>
+        <a href="https://github.com/Wang-Nainai/ClickFlow">ClickFlow <span>C# / WPF</span></a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <h2>项目</h2>
+          <p>公开仓库与在线教程；描述来自项目本身，不包含未经验证的数据。</p>
+        </div>
+        <a href="https://github.com/Wang-Nainai?tab=repositories" target="_blank" rel="noopener">全部仓库 →</a>
+      </div>
+
+      <div class="featured">
+        <div class="featured-main">
+          <span class="tag">Featured · Courseware</span>
+          <h3>嵌入式与计算机技术教程</h3>
+          <p>面向 C 语言、嵌入式开发、实时操作系统、通信协议与计算机网络学习者的开源教程集合。五册独立 HTML，包含交互实验、代码示例与自测题，支持在线阅读与离线使用。</p>
+          <div class="featured-tags"><span>C</span><span>Embedded Systems</span><span>FreeRTOS</span><span>Networking</span><span>Open Source</span></div>
+        </div>
+        <div class="featured-side">
+          <b>在线阅读</b>
+          <a href="https://wang-nainai.github.io/embedded-learning/">进入教程门户 ↗</a>
+          <b style="margin-top:6px">源码</b>
+          <a href="https://github.com/Wang-Nainai/embedded-learning" target="_blank" rel="noopener">github.com/Wang-Nainai/embedded-learning ↗</a>
+        </div>
+      </div>
+
+      <div class="grid" style="margin-top:14px">
+        <a class="card" href="https://github.com/Wang-Nainai/SmartKnob" target="_blank" rel="noopener">
+          <div class="card-top"><h3>SmartKnob</h3><span class="lang"><i class="dot" style="background:#0f766e"></i>C</span></div>
+          <p>ESP32-S3 联网力反馈智能旋钮：BLDC + FOC、13 种手感、LVGL 9.2、BLE HID 仿 Surface Dial、Home Assistant 与 Web 配置/OTA。</p>
+          <span class="more">查看仓库 ↗</span>
+        </a>
+        <a class="card" href="https://github.com/Wang-Nainai/ClickFlow" target="_blank" rel="noopener">
+          <div class="card-top"><h3>ClickFlow</h3><span class="lang"><i class="dot" style="background:#7c3aed"></i>C#</span></div>
+          <p>Windows 11 风格的轻量鼠标连点器，支持固定/随机间隔、全局快捷键、中英双语与主题切换。</p>
+          <span class="more">查看仓库 ↗</span>
+        </a>
+        <a class="card" href="https://github.com/Wang-Nainai/file-compare-tool" target="_blank" rel="noopener">
+          <div class="card-top"><h3>file-compare-tool</h3><span class="lang"><i class="dot" style="background:#2563eb"></i>C#</span></div>
+          <p>Windows WPF 文件对比工具：比较文件名，并把重复的 B 文件安全移入回收站；支持中英文界面。</p>
+          <span class="more">查看仓库 ↗</span>
+        </a>
+        <a class="card" href="https://github.com/Wang-Nainai/drug-list-assistant" target="_blank" rel="noopener">
+          <div class="card-top"><h3>drug-list-assistant</h3><span class="lang"><i class="dot" style="background:#b45309"></i>Python</span></div>
+          <p>Excel 药品清单去重、合并与重复统计工具，Win11 Fluent UI，支持批量处理与药名人工核对。</p>
+          <span class="more">查看仓库 ↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="wrap">
+      <div class="about-grid">
+        <div>
+          <h2>关于这个站点</h2>
+          <p>这里汇总我的公开项目与教程。每个项目的说明都来自仓库本身；教程内容与源码分别维护，方便独立更新。</p>
+          <p>站点是纯静态页面：没有外部字体、CDN 或统计脚本，断网也能打开。项目源码、问题反馈与更新记录都在 GitHub。</p>
+        </div>
+        <div style="display:grid;gap:10px">
+          <div class="box"><b>教程</b><span>五册独立 HTML：C 语言基础、嵌入式 C 进阶、FreeRTOS、通信协议、计算机网络。支持在线阅读与离线下载。</span></div>
+          <div class="box"><b>反馈</b><span>发现错误或有改进建议，欢迎在对应仓库提 Issue 或 Pull Request。</span></div>
+          <div class="box"><b>许可</b><span>教程内容采用 CC BY 4.0；教程构建脚本与站点代码采用 MIT。各项目以其仓库内的许可证为准。</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-in">
+    <span>© <span id="year">2026</span> Wang-Nainai</span>
+    <span><a href="https://github.com/Wang-Nainai" target="_blank" rel="noopener">GitHub</a> · <a href="https://wang-nainai.github.io/embedded-learning/">教程</a></span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var nav=document.getElementById('nav'),t=document.getElementById('toggle'),l=document.getElementById('links');
+  function set(o){l.classList.toggle('open',o);t.setAttribute('aria-expanded',o?'true':'false');document.body.style.overflow=o?'hidden':'';}
+  t.addEventListener('click',function(){set(!l.classList.contains('open'));});
+  l.addEventListener('click',function(e){if(e.target.closest('a'))set(false);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')set(false);});
+  window.addEventListener('resize',function(){if(innerWidth>760)set(false);});
+  window.addEventListener('scroll',function(){nav.classList.toggle('scrolled',scrollY>6);},{passive:true});
+  document.getElementById('year').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
